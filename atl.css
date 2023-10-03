@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+header, footer{
+    
+    float: left;
+    width: 100%;
+    
+    border: 1px solid black;
+}
+
+.nav1 {
+   padding:29px 0 ;
+    width: 48%;
+    
+    text-align:flex-start;
+    float: left;
+    border-bottom:2px solid black ;
+   
+}
+a{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: large;
+    text-decoration: none;
+    font-style: none;
+    display: inline; 
+    color: black;
+}
+.leftbox{
+        height: 500px;
+        width: 25%;
+        border:1px solid black;
+        float: left;
+}
+.placehold2{
+    margin-left: 40px;
+    height: 171px;
+    
+    
+}
+.main-img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+h3{
+    float: left;
+    width: 100%;
+    font: 1em sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.targ-text{
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+main{
+    border: 1px solid black;
+    height: 500px;
+    float: left;
+    width: 50%;
+    word-break: break-all;
+}
+.leftbox-1{
+    float: left;
+    width: 100%;
+}
+h1 {
+    
+    display: inline;
+   
+    font-size: 100px;
+    color: #ff0000;
+}
+h2{
+    margin-left: -55%;
+    font-style: italic;
+}
+.logo{
+    white-space: nowrap;
+    
+    float: left;
+    width: 4%;
+}
+
+.sideright{
+    height: 500px;
+    width: 25%;
+    border:1px solid black;
+    float: right;
+}
+.sidebottom{
+    height: 253px;
+    width: 100%;
+    border:1px solid black;
+    float: left;
+}
+.sidebottom1{
+    padding: 10px 10px;
+    height: 105px;
+    float: left;
+    width: 25%;
+}
+.placehold{
+    height: 50px;
+    float: right;
+    
+}
+.box-right{
+    text-align: end;
+    padding: 29px 0;
+    float: right;
+    width: 48%;
+    border-bottom: 2px solid black;
+}
+.make-button{
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: red;
+   border: 2px solid black; ; 
+}
+@media only screen and (max-width: 1000px) {
+    .sideright{
+        display: none;
+    }.leftbox-1{
+        display: none;
+    }main{
+        width: 100%;
+    }.leftbox{
+        display: none;
+    }
+   }
+@media only screen and (max-width: 800px) {
+    .sideright{
+        display: none;
+    }.leftbox{
+        display: none;
+    }main{
+        width: 100%;
+    }
+   }
+@media only screen and (max-width: 600px) {
+    .sideright{
+        display: none;
+    }.leftbox{
+        display: none;
+    }main{
+        width: 100%;
+    }
+   
+   }
